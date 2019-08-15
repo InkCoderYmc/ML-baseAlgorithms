@@ -79,3 +79,4 @@ y=data['target']
 train_x, test_x, train_y, test_y = train_test_split(X, y, test_size = 0.2, random_state=33)
 summaries = summarizeByClass(train_x, train_y)
 accuracy, y_prob = prodect(summaries, test_x, test_y)
+print(accuracy, y_prob)
