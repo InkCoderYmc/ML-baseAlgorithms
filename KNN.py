@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.datasets import load_iris
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 import operator
 
 #KNN函数，输入已有数据，带预测数据，输出预测结果
