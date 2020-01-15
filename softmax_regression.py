@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
 
@@ -64,3 +64,4 @@ if __name__ == '__main__':
           if p_out[i,] == test_y[i,]:
                count += 1
     accuracy = count / len(test_y)
+    print(accuracy)
