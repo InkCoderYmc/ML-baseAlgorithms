@@ -3,7 +3,7 @@ from collections import Counter, defaultdict
 import math
 from sklearn import datasets
 from sklearn.datasets import load_iris
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 import operator
 
 def Gini(y_data):

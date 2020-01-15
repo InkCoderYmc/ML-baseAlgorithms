@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
 from sklearn import datasets
 from sklearn.datasets import load_iris
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 #将数据集进行分类
 def separateByClass(dataset, target):
